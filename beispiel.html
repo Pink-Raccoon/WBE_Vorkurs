@@ -1,17 +1,167 @@
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title> Mein erstes HTML-Dokument </title>
-    </head>
-    <body>
-        <h1>Dies ist die erste Überschrift</h1>
-            <p> <b>Dies ist</b> <i>der erste </i>Absatz.</p>
-            <p>Und dies ein weiterer Absatz. </p> 
-            <p><img src= "C:/Users/ashas/OneDrive - ZHAW/HS22/WBE Vorbereitung_20220630_1416/Tutorials/material/teil_1/frackwoche.jpg" alt= "Frackwoche" width= "816" height= "612"</p>
-            <p> &auml &uumls isll üb ä</p>
-        <h2>Dies ist die zweite Überschrift</h2>     
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <title> Mein erstes HTML-Dokument </title>
+</head>
+
+<body>
+    <h1>Dies ist die erste Überschrift</h1>
+    <p> <b>Dies ist</b> <i>der erste </i>Absatz.</p>
+    <p>Und dies ein weiterer Absatz. </p>
+    <p>
+        <figure>
+            <img src="/images/frackwoche.jpg" alt="Frackwoche" width="816" height="612">
+            <figcaption>
+                Frackwoche
+            </figcaption>
+        </figure>
+
+    </p>
+    <p> &auml; &uuml; isll üb ä</p>
+    <h2>Dies ist die zweite Überschrift</h2>
+
+    <blockquote>
+        <p>
+            I contend that we are both atheists. I just believe in one fewer god than you do. When you understand why yo dismiss all the other possible gods, you will understand why I dismiss yours.
+        </p>
+    </blockquote>
+    <p>
+        -Stephen Roberts
+    </p>
+
+    <p>
+        My favourite book is
+        <cite>
+            The Reality Dysfunction
+        </cite>
+    </p>
+    <p>
+        <mark>
+            this is a marked text
+        </mark>
+    </p>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <th>2008</th>
+                    <th>2007</th>
+                    <th>2006</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Net sales</th>
+                <td>$ 32,479</td>
+                <td>$ 24,006</td>
+                <td>$ 19,315</td>
+            </tr>
+            <tr>
+                <th>Cost of sales</th>
+                <td> 21,334</td>
+                <td> 15,852</td>
+                <td> 13,717</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <th>Gross margin</th>
+                <td>$ 11,145</td>
+                <td>$ 8,154</td>
+                <td>$ 5,598</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Gross margin percentage</th>
+                <td>34.3%</td>
+                <td>34.0%</td>
+                <td>29.0%</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>
+        Auf der
+        <a href="http://www.zhaw.ch"> 
+            Startseite
+
+        </a> finden Sie alle wesentlichen Informationen.
+    </p>
+
+    <form action="auswerten.php" method="post">
+        <p>
+            <label for="vornameid">
+                Vorname:
+            </label>
+            <input type="text" name="vorname" id="vornameid">
+
+            <p>
+                <label for="aboid">
+                    Newsletter abonnieren:
+                </label>
+                <input type="checkbox" name="abo" id="aboid">
+            </p>
+
+            <p>
+                <input type="submit" value="Absenden">
+            </p>
+
+        </p>
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
 
 </html>
-
-               
