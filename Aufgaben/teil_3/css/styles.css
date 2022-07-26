@@ -2,5 +2,19 @@
 
 /* so können Kommentare in CSS eingefügt werden */
 
+p {
+    background-color: lightblue;
+    box-sizing: border-box;
+    width: 350px;
+    padding: 30px;
+    margin: 20px auto;
+    border: 10px solid goldenrod;
+    border-radius: 2rem;
+    float: left;
+}
 
-
+h1:first-child+p+p {
+    background-color: palegoldenrod;
+    top: -0;
+    left: 0;
+}
